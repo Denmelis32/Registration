@@ -1,5 +1,6 @@
 package com.example.registration
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -55,6 +56,10 @@ class RegistrationActivity : AppCompatActivity() {
 
                 database.child("users").child(uid).setValue(fireBaseUser)
                 onBackPressed()
+
+
+                val intent = Intent(this, HomeActivity::class.java)
+                startActivity(intent)
             }
             // ...
         } else {

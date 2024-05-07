@@ -43,6 +43,10 @@ dependencies {
     implementation("com.firebaseui:firebase-ui-auth:7.2.0")
     implementation("com.google.firebase:firebase-database:19.2.0")
 
+
+    implementation ("androidx.recyclerview:recyclerview:1.2.0")
+    implementation ("androidx.cardview:cardview:1.0.0")
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
