@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "720130030414",
+    "project_id": "testinggame-19b60",
+    "storage_bucket": "testinggame-19b60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720130030414:android:f7e01fcc8fb3433fe97c1f",
+        "android_client_info": {
+          "package_name": "com.example.registration"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-XUuoK74JRu5Z-nrlS-YmY4O6UNgf4SM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
